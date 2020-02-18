@@ -1,0 +1,39 @@
+img{
+   width: 120px; 
+   margin-bottom: 15px; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div{
+   padding: 30px; 
+   margin:5px; 
+   
+}
+
+h1 {
+   text-align: center;
+   text-transform: uppercase;
+
+}
+
+
+@media screen{
+
+}
+
+
+@media all and (min-width: 850px){
+
+	#mystuff{
+
+		display: grid;
+		grid-template-columns: auto auto auto;
+
+	}
+
+	.b, .d, .h, .f{
+		border: 2px solid black;
+	}
+}
